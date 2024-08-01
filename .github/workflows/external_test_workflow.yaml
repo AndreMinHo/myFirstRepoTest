@@ -4,8 +4,7 @@ jobs:
   external-workflow:
     runs-on: ubuntu-latest
     steps:
-      - name: uses_test
-        uses: abystoma/external-workflow@branch
+      - uses: abystoma/external-workflow@branch
         with:
           fetch-depth: 0
       - name: Greetings
